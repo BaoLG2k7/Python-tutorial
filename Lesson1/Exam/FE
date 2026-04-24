@@ -1,0 +1,8 @@
+n = int(input("Nhập số: "))
+
+if n % 3 == 0 and n % 5 == 0: 
+    print('FizzBuzz')
+elif n % 2 == 0:
+    print('Even')
+else:
+    print('Odd')
